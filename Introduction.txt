@@ -1,4 +1,4 @@
-Accessibility.gpkg： contains 7 files 
+Accessibility.zip：a geopackage including 7 files 
 [1]district(shp): 
 	the geographic information data of 11districts and 170 streets in Guangzhou; sum population; population density
 [2]Hospital_point(shp):
