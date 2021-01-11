@@ -1,0 +1,39 @@
+Accessibility.gpkg： contains 7 files 
+[1]district(shp): 
+	the geographic information data of 11districts and 170 streets in Guangzhou; sum population; population density
+[2]Hospital_point(shp):
+	the geographic information data of hospitals in Guangzhou; Bed numbers;
+[3]District_Point(shp):
+	 the location of population; sum population
+[4]Road_Network(shp):
+	the road network of Guangzhou
+[5]District1.5(shp):
+	join"District" and " data_district1.5_2"; Accessibility of community medical facility
+[6]District10(shp):
+	join"District" and " data_district10_2"; Accessibility of district medical facility
+[7]District20(shp):
+	join"District" and " data_district20_2"; Accessibility of municipal medical facility
+[8]Boundry(shp):
+	the boundry of each district in Guangzhou
+
+csv.7z: contains 7 csv files
+[1]Bednum:
+	the sum bed number of medical facilities
+[2]general_information:
+	the number of population and medical facilities in each district in Guangzhou
+[3]Hospital_Point:
+	coordinate and bednum of hospital
+[4]Population:
+	coordinate and number of population
+[5]data_district1.5_2:
+	the accessibility of community medical facility
+[6]data_district10_2:
+	Accessibility of district medical facility
+[7] data_district20_2:
+	Accessibility of municipal medical facility
+
+od_matrix.csv:
+	the road distance between each point of population and medical facilities
+
+test.R:
+	the code of calculating accessibilty
